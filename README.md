@@ -20,3 +20,10 @@ example:
         ...
   ]
 }
+
+one element of "utteranceObjects" is one Object class in Project;
+Utterance of one Object is based on its "tags" array;
+"resource" represents the relative path of the model;
+"position" and "rotation" are default transform of the model in Unity;
+"offsetPosition" is the offset of position from a higher priority model to a lower priority model
+"priority": priority of model, 1 for the most important, the higher the less important
